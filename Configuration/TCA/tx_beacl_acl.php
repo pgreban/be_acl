@@ -41,6 +41,7 @@ return array(
 			'config' => Array (
 				'type' => 'select',
 				'renderType' => 'selectSingle',
+				'default' => '0',
 				'itemsProcFunc' => 'JBartels\BeAcl\Utility\ObjectSelection->select',
 				'size' => 1,
 				'minitems' => 0,
