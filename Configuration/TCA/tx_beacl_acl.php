@@ -27,6 +27,7 @@ return array(
 			'config' => Array (
 				'type' => 'select',
 				'renderType' => 'selectSingle',
+				'default' => 0,
 				'items' => Array (
 					Array('LLL:EXT:be_acl/Resources/Private/Languages/locallang_db.xlf:tx_beacl_acl.type.I.0', '0'),
 					Array('LLL:EXT:be_acl/Resources/Private/Languages/locallang_db.xlf:tx_beacl_acl.type.I.1', '1'),
@@ -41,7 +42,7 @@ return array(
 			'config' => Array (
 				'type' => 'select',
 				'renderType' => 'selectSingle',
-				'default' => '0',
+				'default' => 0,
 				'itemsProcFunc' => 'JBartels\BeAcl\Utility\ObjectSelection->select',
 				'size' => 1,
 				'minitems' => 0,
